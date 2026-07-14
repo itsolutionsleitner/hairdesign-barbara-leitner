@@ -124,6 +124,10 @@ p { margin-bottom: 1rem; }
 /* === 7. SECTIONS === */
 .intro-image { position: relative; }
 .intro-image img { width: 100%; min-height: 28rem; border-radius: var(--radius); object-fit: cover; box-shadow: var(--shadow); }
+.history-panel { display: flex; min-height: 28rem; padding: clamp(2rem, 5vw, 4rem); flex-direction: column; justify-content: flex-end; border-radius: var(--radius); background: linear-gradient(145deg, #e9d9cc, #b56f49); box-shadow: var(--shadow); color: #fff; }
+.history-panel span { margin-bottom: 0.25rem; font-family: "Sora", Arial, sans-serif; font-size: 0.9rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; }
+.history-panel strong { font-family: "Sora", Arial, sans-serif; font-size: clamp(4.5rem, 10vw, 7rem); line-height: 0.9; }
+.history-panel p { max-width: 18rem; margin: 1.4rem 0 0; color: rgba(255, 255, 255, 0.88); }
 .image-note { position: absolute; right: -1rem; bottom: 1.5rem; max-width: 13rem; padding: 1.2rem; border-radius: 0.8rem; background: var(--surface); box-shadow: var(--shadow); color: var(--muted); font-size: 0.85rem; }
 .image-note strong { display: block; margin-bottom: 0.15rem; color: var(--copper-dark); font-family: "Sora", Arial, sans-serif; font-size: 1.5rem; }
 .story-copy { max-width: 32rem; }
@@ -162,6 +166,10 @@ p { margin-bottom: 1rem; }
 .team-card h2 { margin-bottom: 0.25rem; font-size: 1.35rem; }
 .team-card p { margin: 0; color: var(--muted); font-size: 0.9rem; }
 .team-card .role { margin-bottom: 0.5rem; color: var(--copper-dark); font-family: "Sora", Arial, sans-serif; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; }
+.team-description { min-height: 2.7rem; }
+.team-hours { margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid var(--line); }
+.team-hours strong { display: block; margin-bottom: 0.45rem; color: var(--ink); font-family: "Sora", Arial, sans-serif; font-size: 0.76rem; }
+.team-card .team-hours p { font-size: 0.8rem; line-height: 1.6; }
 .price-groups { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; }
 .price-card { padding: clamp(1.6rem, 4vw, 2.25rem); border-radius: 1rem; background: var(--surface); box-shadow: 0 5px 20px rgba(54, 37, 25, 0.05); }
 .price-card h2 { margin-bottom: 1.5rem; font-size: 1.6rem; }
@@ -193,6 +201,10 @@ p { margin-bottom: 1rem; }
 .map-card h2 { color: #fff; font-size: clamp(1.7rem, 3vw, 2.5rem); }
 .map-card p { max-width: 27rem; color: rgba(255, 255, 255, 0.82); }
 .map-card .button { margin-top: 0.5rem; }
+.map-embed { position: relative; min-height: 28rem; overflow: hidden; border-radius: var(--radius); background: var(--ink); box-shadow: var(--shadow); }
+.map-embed iframe { display: block; width: 100%; height: 28rem; border: 0; filter: saturate(0.8); }
+.map-overlay { position: absolute; left: clamp(1.25rem, 4vw, 3rem); bottom: clamp(1.25rem, 4vw, 3rem); padding: 1.5rem; border-radius: 0.8rem; background: rgba(42, 38, 34, 0.93); color: #fff; }
+.map-overlay h2 { margin-bottom: 1rem; color: #fff; font-size: clamp(1.4rem, 3vw, 2rem); }
 .legal-content h2 { margin-top: 3rem; font-size: clamp(1.5rem, 3vw, 2rem); }
 .legal-content h3 { margin-top: 1.8rem; }
 .legal-content p, .legal-content li { color: var(--muted); }
@@ -200,7 +212,7 @@ p { margin-bottom: 1rem; }
 
 /* === 9. FOOTER === */
 .site-footer { padding: 4.5rem 0 1.8rem; background: #211e1b; color: rgba(255, 255, 255, 0.72); }
-.footer-grid { display: grid; grid-template-columns: 1.6fr 1fr 1fr; gap: 3rem; padding-bottom: 3rem; }
+.footer-grid { display: grid; grid-template-columns: 1.6fr repeat(3, 1fr); gap: 2rem; padding-bottom: 3rem; }
 .footer-brand img { width: 12rem; margin-bottom: 1.2rem; filter: brightness(0) invert(1); }
 .footer-brand p { max-width: 23rem; margin: 0; font-size: 0.87rem; }
 .footer-title { margin-bottom: 1rem; color: #fff; font-family: "Sora", Arial, sans-serif; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }
@@ -237,7 +249,7 @@ p { margin-bottom: 1rem; }
   .section-heading, .cta-band-inner { display: block; }
   .section-heading .button, .cta-band .button { margin-top: 1rem; }
   .service-grid, .value-grid, .team-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .footer-grid { grid-template-columns: 1.3fr 1fr; gap: 2.2rem; }
+  .footer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2.2rem; }
   .footer-brand { grid-column: 1 / -1; }
 }
 
