@@ -236,8 +236,8 @@ p { margin-bottom: 1rem; }
   .site-header { position: absolute; }
   .nav { min-height: 5.1rem; }
   .brand img { width: 9.5rem; }
-  .menu-toggle { display: grid; place-items: center; }
-  .nav-links { position: fixed; inset: 5.1rem 1rem auto; display: grid; gap: 0; padding: 0.7rem 1.2rem; border-radius: 1rem; background: #292521; box-shadow: 0 20px 45px rgba(0, 0, 0, 0.25); opacity: 0; pointer-events: none; transform: translateY(-0.75rem); transition: opacity 0.2s ease, transform 0.2s ease; }
+  .menu-toggle { display: grid; place-items: center; margin-left: auto; }
+  .nav-links { position: fixed; top: 5.1rem; right: 1rem; width: min(17rem, calc(100% - 2rem)); display: grid; gap: 0; padding: 0.7rem 1.2rem; border-radius: 1rem; background: #292521; box-shadow: 0 20px 45px rgba(0, 0, 0, 0.25); opacity: 0; pointer-events: none; transform: translateY(-0.75rem); transition: opacity 0.2s ease, transform 0.2s ease; }
   .nav-links.is-open { opacity: 1; pointer-events: auto; transform: none; }
   .nav-links a { display: block; padding: 0.85rem 0; }
   .nav-links a::after { display: none; }
