@@ -22,39 +22,39 @@ Sie ersetzt keine Punkte aus `PROJECT-NOTES.md` oder `DOMAIN-SETUP.md`, sondern 
 
 ## B) Mobil, Browser & Bedienung
 
-- [ ] Website auf einem echten Smartphone oder in der mobilen Browser-Ansicht getestet.
-- [ ] Navigation ist mobil gut bedienbar und schließt nach einem Klick auf einen Menüpunkt.
-- [ ] Keine horizontalen Scrollbalken auf Mobilgeräten.
-- [ ] Texte sind lesbar; Buttons und Links sind ausreichend groß und gut antippbar.
-- [ ] Desktop-Ansicht bei mindestens einer breiten Bildschirmgröße getestet.
-- [ ] Aktuelle Version von Chrome und einem zweiten Browser getestet (z. B. Edge, Firefox oder Safari).
-- [ ] Tastaturbedienung getestet: Mit Tab sind Navigation, Links, Buttons und Formularfelder erreichbar.
-- [ ] Sichtbarer Fokus bei Tastaturbedienung vorhanden.
-- [ ] Bei aktivierter Einstellung „Bewegung reduzieren“ bleiben Inhalte lesbar und Animationen stören nicht.
+- [X] Website auf einem echten Smartphone oder in der mobilen Browser-Ansicht getestet.
+- [X] Navigation ist mobil gut bedienbar und schließt nach einem Klick auf einen Menüpunkt.
+- [X] Keine horizontalen Scrollbalken auf Mobilgeräten.
+- [X] Texte sind lesbar; Buttons und Links sind ausreichend groß und gut antippbar.
+- [X] Desktop-Ansicht bei mindestens einer breiten Bildschirmgröße getestet.
+- [X] Aktuelle Version von Chrome und einem zweiten Browser getestet (z. B. Edge, Firefox oder Safari).
+- [X] Tastaturbedienung getestet: Mit Tab sind Navigation, Links, Buttons und Formularfelder erreichbar.
+- [X] Sichtbarer Fokus bei Tastaturbedienung vorhanden.
+- [X] Bei aktivierter Einstellung „Bewegung reduzieren“ bleiben Inhalte lesbar und Animationen stören nicht.
 
 ---
 
 ## C) Formulare & Funktionen
 
-- [ ] Kontaktformular mit echten Testdaten ausprobiert.
+- [X] Kontaktformular mit echten Testdaten ausprobiert.
 - [ ] Test-E-Mail kommt beim vorgesehenen Empfänger an.
-- [ ] Fehlermeldungen bei leeren bzw. ungültigen Pflichtfeldern sind verständlich.
-- [ ] Erfolgsmeldung erscheint erst nach erfolgreicher Übermittlung.
-- [ ] Cookie-Banner, Karte, WhatsApp-Button, Downloads und sonstige Sonderfunktionen getestet (falls vorhanden).
+- [X] Fehlermeldungen bei leeren bzw. ungültigen Pflichtfeldern sind verständlich.
+- [X] Erfolgsmeldung erscheint erst nach erfolgreicher Übermittlung.
+- [X] Cookie-Banner, Karte, WhatsApp-Button, Downloads und sonstige Sonderfunktionen getestet (falls vorhanden).
 
 ---
 
 ## D) Auffindbarkeit, Technik & Datenschutz
 
-- [ ] Jede Seite hat einen passenden, individuellen `<title>`.
-- [ ] Jede wichtige Seite hat eine kurze, passende Meta-Description.
-- [ ] Es gibt genau eine Hauptüberschrift (`h1`) pro Seite; Überschriften sind logisch geordnet.
-- [ ] Seiten-URL, Seitentitel und Inhalte passen zusammen.
-- [ ] `favicon` vorhanden und im Browser-Tab sichtbar.
-- [ ] Impressum und Datenschutzerklärung sind verlinkt und vom Kunden fachlich freigegeben.
-- [ ] Externe Dienste (z. B. Google Maps, YouTube, Analytics, Meta Pixel) werden nur eingebunden, wenn Datenschutz und Cookie-Einwilligung dafür geklärt sind.
-- [ ] Keine Passwörter, API-Keys oder privaten Daten im Quellcode bzw. GitHub-Repository.
-- [ ] Bei sehr großen Bildern: Dateigrößen prüfen und Bilder bei Bedarf vor dem Upload verkleinern oder komprimieren.
+- [X] Jede Seite hat einen passenden, individuellen `<title>`.
+- [X] Jede wichtige Seite hat eine kurze, passende Meta-Description.
+- [X] Es gibt genau eine Hauptüberschrift (`h1`) pro Seite; Überschriften sind logisch geordnet.
+- [X] Seiten-URL, Seitentitel und Inhalte passen zusammen.
+- [X] `favicon` vorhanden und im Browser-Tab sichtbar.
+- [X] Impressum und Datenschutzerklärung sind verlinkt und vom Kunden fachlich freigegeben.
+- [X] Externe Dienste (z. B. Google Maps, YouTube, Analytics, Meta Pixel) werden nur eingebunden, wenn Datenschutz und Cookie-Einwilligung dafür geklärt sind.
+- [X] Keine Passwörter, API-Keys oder privaten Daten im Quellcode bzw. GitHub-Repository.
+- [X] Bei sehr großen Bildern: Dateigrößen prüfen und Bilder bei Bedarf vor dem Upload verkleinern oder komprimieren.
 
 ---
 
@@ -65,7 +65,7 @@ Sie ersetzt keine Punkte aus `PROJECT-NOTES.md` oder `DOMAIN-SETUP.md`, sondern 
 - [ ] Letzter Stand ist auf GitHub gepusht; Vercel zeigt den Deployment-Status „Ready“.
 - [ ] Vor einer DNS-Änderung sind die vorhandenen DNS-Einträge dokumentiert.
 - [ ] E-Mail-Einträge (MX, SPF, DKIM, DMARC) bleiben erhalten.
-- [ ] Gewünschte Hauptdomain festgelegt: mit oder ohne `www`.
+- [X] Gewünschte Hauptdomain festgelegt: mit oder ohne `www`.
 - [ ] Nach der Domain-Umstellung: HTTPS, Hauptdomain, www-Variante, Kontaktformular und Links erneut testen.
 
 ---
