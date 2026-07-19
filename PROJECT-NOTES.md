@@ -26,10 +26,10 @@ Projektspezifischer Kontext, befüllt aus `KUNDEN-BRIEFING-TEMPLATE.md`. Bei kle
 ## Bilder-Mapping (`images/`)
 - Logo: `Logo_Hairdesing Barbara Leitner.png`
 - Team: `Barbara.jpg`, `Sabine.jpg`, `Selina.jpg`, `Erika.jpg`, `Jaqueline.jpg`, `Natalie.jpg`
-- Salon: `Salon_1.jpg` – `Salon_7.jpg`
+- Salon: `Salon_1.jpg`, `Salon_2.jpg`, `Salon_4.jpg` – `Salon_7.jpg`
 
 ## Offene Punkte (bitte prüfen / ergänzen)
-1. **Kontaktformular:** Aktuell mit Platzhalter-Endpoint `https://formspree.io/f/DEINE-FORMSPREE-ID` in `kontakt.html`. Bei formspree.io kostenloses Formular anlegen und die echte Form-ID einsetzen, sonst werden keine Mails verschickt.
+1. **Kontaktformular:** Formspree ist in `kontakt.html` über `https://formspree.io/f/mdaqgvyo` angebunden.
 2. **Preisliste** (`leistungen.html`): Preise sind sinnvolle Richtwerte, keine echten Kundenpreise — bitte mit Barbara abstimmen und anpassen.
 3. **Öffnungszeiten:** Platzhalter (Di–Fr 8–18, Sa 8–12) — bitte mit den echten Öffnungszeiten abgleichen (steht aktuell im Footer aller Seiten + auf der Kontaktseite).
 4. **Impressum:** Gewerbebehörde / UID-Nummer fehlen im Briefing — bitte ergänzen, sobald verfügbar.

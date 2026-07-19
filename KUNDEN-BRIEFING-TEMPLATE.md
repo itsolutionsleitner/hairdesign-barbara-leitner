@@ -168,7 +168,6 @@ _zu bunt, zu überladen, zu altmodisch_
 - [X] Salonfotos: 
         Foto 1 → Dateinamen: Salon_1
         Foto 2 → Dateinamen: Salon_2
-        Foto 3 → Dateinamen: Salon_3
         Foto 4 → Dateinamen: Salon_4
         Foto 5 → Dateinamen: Salon_5
         Foto 6 → Dateinamen: Salon_6

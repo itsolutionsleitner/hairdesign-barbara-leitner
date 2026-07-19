@@ -30,7 +30,6 @@ Das Projekt im VS Code öffnen und mit der Erweiterung **Live Server** starten. 
 
 ## Vor dem Livegang prüfen
 
-- In `kontakt.html` die echte Formspree-ID in der Formular-URL einsetzen.
 - Preisangaben in `leistungen.html` mit dem Salon abstimmen.
 - Öffnungszeiten final bestätigen.
 - Im Impressum die zuständige Gewerbebehörde und Firmenbuchnummer ergänzen.
