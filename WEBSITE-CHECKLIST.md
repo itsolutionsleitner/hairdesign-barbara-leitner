@@ -37,7 +37,7 @@ Sie ersetzt keine Punkte aus `PROJECT-NOTES.md` oder `DOMAIN-SETUP.md`, sondern 
 ## C) Formulare & Funktionen
 
 - [X] Kontaktformular mit echten Testdaten ausprobiert.
-- [ ] Test-E-Mail kommt beim vorgesehenen Empfänger an.
+- [X] Test-E-Mail kommt beim vorgesehenen Empfänger an.
 - [X] Fehlermeldungen bei leeren bzw. ungültigen Pflichtfeldern sind verständlich.
 - [X] Erfolgsmeldung erscheint erst nach erfolgreicher Übermittlung.
 - [X] Cookie-Banner, Karte, WhatsApp-Button, Downloads und sonstige Sonderfunktionen getestet (falls vorhanden).
