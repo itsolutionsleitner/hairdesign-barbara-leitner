@@ -60,22 +60,22 @@ Sie ersetzt keine Punkte aus `PROJECT-NOTES.md` oder `DOMAIN-SETUP.md`, sondern 
 
 ## E) Vor dem Livegang
 
-- [ ] Letzte Version auf der Vercel-Vorschau (`*.vercel.app`) vollständig getestet.
-- [ ] Kunde hat Design, Texte und Bilder freigegeben.
-- [ ] Letzter Stand ist auf GitHub gepusht; Vercel zeigt den Deployment-Status „Ready“.
-- [ ] Vor einer DNS-Änderung sind die vorhandenen DNS-Einträge dokumentiert.
-- [ ] E-Mail-Einträge (MX, SPF, DKIM, DMARC) bleiben erhalten.
+- [X] Letzte Version auf der Vercel-Vorschau (`*.vercel.app`) vollständig getestet.
+- [X] Kunde hat Design, Texte und Bilder freigegeben.
+- [X] Letzter Stand ist auf GitHub gepusht; Vercel zeigt den Deployment-Status „Ready“.
+- [X] Vor einer DNS-Änderung sind die vorhandenen DNS-Einträge dokumentiert.
+- [X] E-Mail-Einträge (MX, SPF, DKIM, DMARC) bleiben erhalten.
 - [X] Gewünschte Hauptdomain festgelegt: mit oder ohne `www`.
-- [ ] Nach der Domain-Umstellung: HTTPS, Hauptdomain, www-Variante, Kontaktformular und Links erneut testen.
+- [X] Nach der Domain-Umstellung: HTTPS, Hauptdomain, www-Variante, Kontaktformular und Links erneut testen.
 
 ---
 
 ## F) Nach der Übergabe
 
-- [ ] Dem Kunden die Live-URL und ggf. die Vercel-Vorschau senden.
-- [ ] Kunde weiß, wohin Änderungswünsche geschickt werden sollen.
-- [ ] Zugänge und Verantwortlichkeiten für Domain, GitHub, Vercel und E-Mail sind dokumentiert.
-- [ ] Einen letzten Git-Commit mit einer klaren Nachricht erstellen, z. B. `v1.0 Website live geschaltet`.
+- [X] Dem Kunden die Live-URL und ggf. die Vercel-Vorschau senden.
+- [X] Kunde weiß, wohin Änderungswünsche geschickt werden sollen.
+- [X] Zugänge und Verantwortlichkeiten für Domain, GitHub, Vercel und E-Mail sind dokumentiert.
+- [X] Einen letzten Git-Commit mit einer klaren Nachricht erstellen, z. B. `v1.0 Website live geschaltet`.
 
 ---
 
